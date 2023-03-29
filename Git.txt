@@ -1,0 +1,38 @@
+Lista dos comandos Git mais comuns:
+
+*Configuração e inicialização do repositório
+git init: Inicializa um novo repositório Git vazio no diretório atual.
+git clone: Clona um repositório Git existente em um novo diretório. gt clone https://github.com/usuario/NomedoProjeto.git
+
+*Trabalhando com o repositório
+git add: Adiciona um arquivo ou mudança de um arquivo ao índice.
+git commit: Registra as mudanças no repositório.
+git status: Mostra o estado atual do repositório.
+git log: Mostra o histórico de commits.
+git diff: Mostra as mudanças não confirmadas em relação ao último commit.
+git branch: Cria, lista ou exclui branches.
+git checkout: Troca de branch ou restaura arquivos. git checkout branchName
+git merge: Une duas ou mais branches.
+git stash: Salva as mudanças não confirmadas para uso posterior.
+
+*Trabalhando com repositórios remotos
+git remote: Gerencia repositórios remotos.
+git fetch: Baixa as mudanças do repositório remoto.
+git pull: Baixa as mudanças do repositório remoto e integra com o repositório local.
+git push: Envia mudanças do repositório local para o repositório remoto. git push -u origin main
+
+
+*Gerenciando tags
+git tag: Lista, cria ou exclui tags.
+
+*Comandos diversos
+git config: Define configurações específicas do usuário para o Git.
+git help: Exibe a ajuda para um comando específico do Git.
+git --version: exibe a versão
+
+*Usuário Git
+git config --global user.email "jefersonb88@gmail.com"
+git config --global user.name "Jeferson"
+
+https://github.com/rafaballerini/GitTutorial.git
+
