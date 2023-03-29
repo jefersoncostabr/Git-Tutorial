@@ -44,7 +44,8 @@ git pull -> Pega os orquivos ou alteração
 
 code. ->abre a pasta no vs code
 clear ->limpa o painel
-cd nomeDaPasta
+cd nomeDaPasta -> Navega nas pastas
+git status -> Mostra a situação atual geral
 
 *Atalho de copia e cola
 Copiar Ctrl+ins
