@@ -21,7 +21,6 @@ git fetch: Baixa as mudanças do repositório remoto.
 git pull: Baixa as mudanças do repositório remoto e integra com o repositório local.
 git push: Envia mudanças do repositório local para o repositório remoto. git push -u origin main
 
-
 *Gerenciando tags
 git tag: Lista, cria ou exclui tags.
 
