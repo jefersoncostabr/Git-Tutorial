@@ -17,7 +17,7 @@ git push -> Depois que o repositorio e a branch foi especificado.
 git config --global user.email "email@gmail.com"
 git config --global user.name "name"
 
-*Fazer Push
+*Fazer Push (upload)
 git add nomeDoArquivo ->adiciona ao stage se vc colocar o nome
 git add . -> Adiciona tudo que foi alterado
 git commit -m "descrição da alteração"
@@ -34,10 +34,10 @@ git checkout main
 git merge novaBranch
 git push origin main
 
-*Clone
+*Clone e pull (pegar um projeto do git, seu ou de terceiro)
 	*Pegar o link do repositório
-git clone repositório https://github.com/usuario/pasta.git
-cd nomeDaPasta
+git clone linkDoRepositório -> ex: https://github.com/usuario/pasta.git -> O arquivo vai para pasta
+cd nomeDaPasta -> vc deve estar exatamente na pasta se ñ dá errado
 git pull -> Pega os orquivos ou alteração
 
 *Outros códigos
