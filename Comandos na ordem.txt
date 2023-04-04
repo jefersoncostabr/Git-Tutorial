@@ -1,6 +1,6 @@
 *Dentro da pasta abrir com git bash
 git init -> Cria repositório
-git add nomeDoArquivo.txt -> Cria um arquivo
+git add nomeDoArquivo.txt -> Adiciona um arquivo
 git status -> verifica como está o processo
 git commit -m "Descrição" -> Comentario sobre o que foi feito
 git branch -m "novoNome" -> Renomeia o branch atual
@@ -20,6 +20,7 @@ git config --global user.name "name"
 *Fazer Push (upload)
 git add nomeDoArquivo ->adiciona ao stage se vc colocar o nome
 git add . -> Adiciona tudo que foi alterado
+ git add *.txt -> Adiciona todos de uma exteção específica
 git commit -m "descrição da alteração"
 git push origin main ->empura o arquivo p o git
 
@@ -46,6 +47,7 @@ code. ->abre a pasta no vs code
 clear ->limpa o painel
 cd nomeDaPasta -> Navega nas pastas
 git status -> Mostra a situação atual geral
+git ignore -> Lista todos os arquivos e padrões que estão fora do versionamento. (Saber mais)
 
 *Atalho de copia e cola
 Copiar Ctrl+ins
