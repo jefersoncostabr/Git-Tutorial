@@ -1,5 +1,5 @@
 *Dentro da pasta abrir com git bash
-git init -> Cria repositório
+git init -> Cria repositório vazio
 git add nomeDoArquivo.txt -> Adiciona um arquivo
 git status -> verifica como está o processo
 git commit -m "Descrição" -> Comentario sobre o que foi feito
@@ -7,7 +7,8 @@ git branch -m "novoNome" -> Renomeia o branch atual
 
 *Criar repositório no GitHub
 
-git remote add origin https://github.com/usuario/pasta.git
+**tudo deve estar commitado**
+git remote add origin https://github.com/usuario/pasta.git  **(só uma vez)
 git push -u origin main -> Empurra p github. Só na primeira vez depois o git sabe em qual projeto e qual branch vc está. 
 	Daí p frente vc pode usar apenas git push. (Melhor forma para fazer primeiro)
 git push -> Depois que o repositorio e a branch foi especificado.
@@ -18,11 +19,19 @@ git config --global user.email "email@gmail.com"
 git config --global user.name "name"
 
 *Fazer Push (upload)
+add no stage>Commit>push p git hub
 git add nomeDoArquivo ->adiciona ao stage se vc colocar o nome
 git add . -> Adiciona tudo que foi alterado
- git add *.txt -> Adiciona todos de uma exteção específica
+git add *.txt -> Adiciona todos de uma exteção específica
 git commit -m "descrição da alteração"
-git push origin main ->empura o arquivo p o git
+git push origin main ->empura o arquivo p o git hub
+
+*****Mais usado*****
+*Após tudo feito as alterações sempre usam esses tres codigos:
+
+git add .
+git commit -m "descrição da alteração"
+git push origin main
 
 *Criar nova branch
 git checkouk -b "novaBranch"
