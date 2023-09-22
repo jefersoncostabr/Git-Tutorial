@@ -19,6 +19,7 @@ git config --global user.email "email@gmail.com"
 git config --global user.name "name"
 
 *Fazer Push (upload)
+
 add no stage>Commit>push p git hub
 git add nomeDoArquivo ->adiciona ao stage se vc colocar o nome
 git add . -> Adiciona tudo que foi alterado
@@ -26,12 +27,14 @@ git add *.txt -> Adiciona todos de uma exteção específica
 git commit -m "descrição da alteração"
 git push origin main ->empura o arquivo p o git hub
 
-*****Mais usado*****
+*****Mais usados*****
 *Após tudo feito as alterações sempre usam esses tres codigos:
 
 git add .
 git commit -m "descrição da alteração"
 git push origin main
+ou (mais resumido abaixo)
+git push
 
 *Criar nova branch
 git checkouk -b "novaBranch"
