@@ -1,6 +1,7 @@
 *Dentro da pasta abrir com git bash
 git init -> Cria repositório vazio
 git add nomeDoArquivo.txt -> Adiciona um arquivo
+git push ->(mais resumido)
 git status -> verifica como está o processo
 git commit -m "Descrição" -> Comentario sobre o que foi feito
 git branch -m "novoNome" -> Renomeia o branch atual
