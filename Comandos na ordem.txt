@@ -60,11 +60,13 @@ git pull -> Pega os orquivos ou alteração
 
 *Outros códigos
 
-code. ->abre a pasta no vs code
-clear ->limpa o painel
+git rm arquivo.txt -> apaga o arquivo específico do git e do diretório (é necessário fazer commit)(sem aspas)
+ls -> lista os arquivos no diretório
+code. -> abre a pasta no vs code em nova janela
+clear -> limpa o painel
 cd nomeDaPasta -> Navega nas pastas
 git status -> Mostra a situação atual geral
-git ignore -> Lista todos os arquivos e padrões que estão fora do versionamento. (Saber mais)
+git ignore -> Lista todos os arquivos e padrões que estão fora do versionamento.
 
 *Atalho de copia e cola
 Copiar Ctrl+ins
