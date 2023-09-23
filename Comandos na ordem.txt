@@ -1,41 +1,45 @@
 *Dentro da pasta abrir com git bash
-git init -> Cria repositório vazio
-git add nomeDoArquivo.txt -> Adiciona um arquivo
-git push ->(mais resumido)
-git status -> verifica como está o processo
-git commit -m "Descrição" -> Comentario sobre o que foi feito
-git branch -m "novoNome" -> Renomeia o branch atual
+	git init -> Cria repositório vazio
+	git add . --> Adiciona tudo que foi alterado
+		git add nomeDoArquivo.txt -> Adiciona um arquivo específico
+	git commit -m "Descrição" -> Comentario sobre o que foi feito
+	git push ->
+	git branch -m "novoNome" -> Renomeia o branch atual
+	git push -u origin main
+
+	git status -> verifica como está o processo
 
 *Criar repositório no GitHub
 
 **tudo deve estar commitado**
-git remote add origin https://github.com/usuario/pasta.git  **(só uma vez)
-git push -u origin main -> Empurra p github. Só na primeira vez depois o git sabe em qual projeto e qual branch vc está. 
-	Daí p frente vc pode usar apenas git push. (Melhor forma para fazer primeiro)
-git push -> Depois que o repositorio e a branch foi especificado.
+	git remote add origin https://github.com/usuario/pasta.git  **(só uma vez)
+	git push -u origin main -> Empurra p github. Só na primeira vez depois o git sabe em qual projeto e qual branch vc está. 
+		Daí p frente vc pode usar apenas git push. (Melhor forma para fazer primeiro)
+	git push -> Depois que o repositorio e a branch foi especificado.
 
 *Fazer login caso não tenha feito
 
-git config --global user.email "email@gmail.com"
-git config --global user.name "name"
+	git config --global user.email "email@gmail.com"
+	git config --global user.name "name"
 
 *Fazer Push (upload)
 
-add no stage>Commit>push p git hub
-git add nomeDoArquivo ->adiciona ao stage se vc colocar o nome
-git add . -> Adiciona tudo que foi alterado
-git add *.txt -> Adiciona todos de uma exteção específica
-git commit -m "descrição da alteração"
-git push origin main ->empura o arquivo p o git hub
+	add no stage>Commit>push p git hub
+	
+	git add nomeDoArquivo ->adiciona ao stage se vc colocar o nome
+	git add . -> Adiciona tudo que foi alterado
+	git add *.txt -> Adiciona todos de uma exteção específica
+	git commit -m "descrição da alteração"
+	git push origin main ->empura o arquivo p o git hub
 
 *****Mais usados*****
 *Após tudo feito as alterações sempre usam esses tres codigos:
 
-git add .
-git commit -m "descrição da alteração"
-git push origin main
-ou (mais resumido abaixo)
-git push
+	git add .
+	git commit -m "descrição da alteração"
+	git push origin main
+	ou (mais resumido abaixo)
+	git push
 
 *Criar nova branch
 git checkouk -b "novaBranch"
