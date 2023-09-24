@@ -60,7 +60,8 @@ git pull -> Pega os orquivos ou alteração
 
 *Outros códigos
 
-git rm arquivo.txt -> apaga o arquivo específico do git e do diretório (é necessário fazer commit)(sem aspas)
+git rm arquivo.txt -> apaga o arquivo específico do git e do diretório(sem aspas)
+	após apagar é necessário fazer commit depois o push
 ls -> lista os arquivos no diretório
 code. -> abre a pasta no vs code em nova janela
 clear -> limpa o painel
