@@ -42,14 +42,14 @@
 	git push
 
 *Criar nova branch
-git checkouk -b "novaBranch"
-git push origin  novaBranch
-git checkout main ->Navega entre as branches colocando o nome da branch no fim sem aspas
+git checkout -b "novaBranch" -> Criar Branch
+git checkout nomeDaBranch -> Navegar entre as branches
+git push -> Se der errado tem que pegar o endereço que o terminal vai fornecer
 
 *Merge
 	*Primeiro tem que já estar na main
 git checkout main
-git merge novaBranch
+git merge novaBranch ->fdeve ser feito commit
 git push origin main
 
 *Clone e pull (pegar um projeto do git, seu ou de terceiro)
@@ -63,7 +63,7 @@ git pull -> Pega os orquivos ou alteração
 git rm arquivo.txt -> apaga o arquivo específico do git e do diretório(sem aspas)
 	após apagar é necessário fazer commit depois o push
 ls -> lista os arquivos no diretório
-code. -> abre a pasta no vs code em nova janela
+code . -> abre a pasta no vs code em nova janela(precisa do espaço antes do ponto)
 clear -> limpa o painel
 cd nomeDaPasta -> Navega nas pastas
 git status -> Mostra a situação atual geral
