@@ -1,0 +1,72 @@
+Comandos do CMD - Prompt de comando
+
+Abrir cmd na pasta atual-> digite "cmd" na barra de endereço da pasta
+
+1. **`cd` - Mudar de Diretório:**
+   - `cd nome_do_diretorio`: Muda o diretório atual para o especificado.
+   - `cd ..`: Volta um nível no diretório.
+   - `cd ..\..`:Volta dois níveis no diretório.
+   - `cd\`: Muda para o diretório raiz.
+   - `cd /?`: Exibe a ajuda para o comando `cd`.
+
+2. **`dir` - Listar Arquivos e Diretórios:**
+   - `dir`: Lista todos os arquivos e diretórios no diretório atual.
+   - `dir /A-D`: Lista apenas os arquivos, excluindo os diretórios.
+   - `dir /Q`: Mostra informações detalhadas, incluindo o dono dos arquivos.
+   - `dir /?`: Exibe a ajuda para o comando `dir`.
+
+3. **`del` - Excluir Arquivo:**
+   - `del nome_do_arquivo`: Exclui o arquivo especificado.
+   - `del *.extensao`: Exclui todos os arquivos com a extensão especificada.
+   - `del /?`: Exibe a ajuda para o comando `del`.
+
+4. **`echo` - Exibir ou Redirecionar Texto:**
+   - `echo texto`: Exibe o texto no console.
+   - `echo texto > arquivo.txt`: Redireciona o texto para um arquivo, criando ou substituindo o conteúdo.
+   - `echo texto >> arquivo.txt`: Adiciona o texto a um arquivo existente.
+   - `echo /?`: Exibe a ajuda para o comando `echo`.
+   - `echo. > index.html`: Cria o arquivo ou substitui se já existir.
+   - `if not exist index.html echo. > index.html`: Cria o arquivo só se ele não existir.
+
+5. **`copy` - Copiar Arquivos:**
+   - `copy arquivo_origem destino`: Copia um arquivo de origem para um destino.
+   - `copy /?`: Exibe a ajuda para o comando `copy`.
+
+6. **`move` - Mover Arquivos:**
+   - `move arquivo_origem destino`: Move um arquivo de origem para um destino.
+   - `move /?`: Exibe a ajuda para o comando `move`.
+
+7. **`ren` - Renomear Arquivos:**
+   - `ren nome_antigo nome_novo`: Renomeia um arquivo.
+   - `ren /?`: Exibe a ajuda para o comando `ren`.
+
+8. **`md` ou `mkdir` - Criar Diretório:**
+   - `md nome_do_diretorio`: Cria um novo diretório.
+   - `mkdir nome_do_diretorio`: Também cria um novo diretório.
+   - `md /?` ou `mkdir /?`: Exibe a ajuda para os comandos `md` e `mkdir`.
+
+9. **`rd` - Remover Diretório:**
+   - `rd nome_do_diretorio`: Remove um diretório vazio.
+   - `rd /s /q nome_do_diretorio`: Remove um diretório e seu conteúdo (força).
+   - `rd /?`: Exibe a ajuda para o comando `rd`.
+
+10. **`cls` - Limpar a Tela:**
+    - `cls`: Limpa a tela do console.
+    - `cls /?`: Exibe a ajuda para o comando `cls`.
+
+11. **`ipconfig` - Exibir Configuração de Rede:**
+   - `ipconfig`: Exibe informações sobre a rede inclusive ip.
+
+12. **`start nome_do_arquivo` - Abrir Arquivo com o Programa Padrão:**
+   - `start nome_do_arquivo`: Abre o arquivo especificado com o programa padrão associado a sua extensão.
+
+13. **`explorer .` - Abrir o Explorer no Diretório Atual:**
+   - `explorer .`: Abre o Explorer do Windows no diretório atual.
+
+14. **`tasklist` - Listar Processos em Execução:
+
+15. **`taskkill /F /IM nome_do_programa.exe` - Fechar Programa por Nome:**
+   - `taskkill /F /IM nome_do_programa.exe`: Encerra um programa ou processo pelo nome do executável.
+
+16. **`taskkill /F /PID ID_do_processo` - Fechar Programa por PID:**
+   - `taskkill /F /PID ID_do_processo`: Encerra um programa ou processo pelo ID do processo (PID).
