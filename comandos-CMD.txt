@@ -1,32 +1,36 @@
 Comandos do CMD - Prompt de comando
 
-Abrir cmd na pasta atual-> digite "cmd" na barra de endereço da pasta
+Abrir cmd na pasta atual-> digite "cmd" na barra de endereï¿½o da pasta
 
-1. **`cd` - Mudar de Diretório:**
-   - `cd nome_do_diretorio`: Muda o diretório atual para o especificado.
-   - `cd ..`: Volta um nível no diretório.
-   - `cd ..\..`:Volta dois níveis no diretório.
-   - `cd\`: Muda para o diretório raiz.
+1. **`cd` - Mudar de Diretï¿½rio:**
+   - `cd nome_do_diretorio`: Muda o diretï¿½rio atual para o especificado.
+   - `cd ..`: Volta um nï¿½vel no diretï¿½rio.
+   - `cd ..\..`:Volta dois nï¿½veis no diretï¿½rio.
+   - `cd\`: Muda para o diretï¿½rio raiz.
    - `cd /?`: Exibe a ajuda para o comando `cd`.
 
-2. **`dir` - Listar Arquivos e Diretórios:**
-   - `dir`: Lista todos os arquivos e diretórios no diretório atual.
-   - `dir /A-D`: Lista apenas os arquivos, excluindo os diretórios.
-   - `dir /Q`: Mostra informações detalhadas, incluindo o dono dos arquivos.
+   **`mkdir Nome Da Pasta` - criar pasta
+
+   **`echo. >> index.html` - criar arquivo em branco
+
+2. **`dir` - Listar Arquivos e Diretï¿½rios:**
+   - `dir`: Lista todos os arquivos e diretï¿½rios no diretï¿½rio atual.
+   - `dir /A-D`: Lista apenas os arquivos, excluindo os diretï¿½rios.
+   - `dir /Q`: Mostra informaï¿½ï¿½es detalhadas, incluindo o dono dos arquivos.
    - `dir /?`: Exibe a ajuda para o comando `dir`.
 
 3. **`del` - Excluir Arquivo:**
    - `del nome_do_arquivo`: Exclui o arquivo especificado.
-   - `del *.extensao`: Exclui todos os arquivos com a extensão especificada.
+   - `del *.extensao`: Exclui todos os arquivos com a extensï¿½o especificada.
    - `del /?`: Exibe a ajuda para o comando `del`.
 
 4. **`echo` - Exibir ou Redirecionar Texto:**
    - `echo texto`: Exibe o texto no console.
-   - `echo texto > arquivo.txt`: Redireciona o texto para um arquivo, criando ou substituindo o conteúdo.
+   - `echo texto > arquivo.txt`: Redireciona o texto para um arquivo, criando ou substituindo o conteï¿½do.
    - `echo texto >> arquivo.txt`: Adiciona o texto a um arquivo existente.
    - `echo /?`: Exibe a ajuda para o comando `echo`.
-   - `echo. > index.html`: Cria o arquivo ou substitui se já existir.
-   - `if not exist index.html echo. > index.html`: Cria o arquivo só se ele não existir.
+   - `echo. > index.html`: Cria o arquivo ou substitui se jï¿½ existir.
+   - `if not exist index.html echo. > index.html`: Cria o arquivo sï¿½ se ele nï¿½o existir.
 
 5. **`copy` - Copiar Arquivos:**
    - `copy arquivo_origem destino`: Copia um arquivo de origem para um destino.
@@ -40,33 +44,33 @@ Abrir cmd na pasta atual-> digite "cmd" na barra de endereço da pasta
    - `ren nome_antigo nome_novo`: Renomeia um arquivo.
    - `ren /?`: Exibe a ajuda para o comando `ren`.
 
-8. **`md` ou `mkdir` - Criar Diretório:**
-   - `md nome_do_diretorio`: Cria um novo diretório.
-   - `mkdir nome_do_diretorio`: Também cria um novo diretório.
+8. **`md` ou `mkdir` - Criar Diretï¿½rio:**
+   - `md nome_do_diretorio`: Cria um novo diretï¿½rio.
+   - `mkdir nome_do_diretorio`: Tambï¿½m cria um novo diretï¿½rio.
    - `md /?` ou `mkdir /?`: Exibe a ajuda para os comandos `md` e `mkdir`.
 
-9. **`rd` - Remover Diretório:**
-   - `rd nome_do_diretorio`: Remove um diretório vazio.
-   - `rd /s /q nome_do_diretorio`: Remove um diretório e seu conteúdo (força).
+9. **`rd` - Remover Diretï¿½rio:**
+   - `rd nome_do_diretorio`: Remove um diretï¿½rio vazio.
+   - `rd /s /q nome_do_diretorio`: Remove um diretï¿½rio e seu conteï¿½do (forï¿½a).
    - `rd /?`: Exibe a ajuda para o comando `rd`.
 
 10. **`cls` - Limpar a Tela:**
     - `cls`: Limpa a tela do console.
     - `cls /?`: Exibe a ajuda para o comando `cls`.
 
-11. **`ipconfig` - Exibir Configuração de Rede:**
-   - `ipconfig`: Exibe informações sobre a rede inclusive ip.
+11. **`ipconfig` - Exibir Configuraï¿½ï¿½o de Rede:**
+   - `ipconfig`: Exibe informaï¿½ï¿½es sobre a rede inclusive ip.
 
-12. **`start nome_do_arquivo` - Abrir Arquivo com o Programa Padrão:**
-   - `start nome_do_arquivo`: Abre o arquivo especificado com o programa padrão associado a sua extensão.
+12. **`start nome_do_arquivo` - Abrir Arquivo com o Programa Padrï¿½o:**
+   - `start nome_do_arquivo`: Abre o arquivo especificado com o programa padrï¿½o associado a sua extensï¿½o.
 
-13. **`explorer .` - Abrir o Explorer no Diretório Atual:**
-   - `explorer .`: Abre o Explorer do Windows no diretório atual.
+13. **`explorer .` - Abrir o Explorer no Diretï¿½rio Atual:**
+   - `explorer .`: Abre o Explorer do Windows no diretï¿½rio atual.
 
-14. **`tasklist` - Listar Processos em Execução:
+14. **`tasklist` - Listar Processos em Execuï¿½ï¿½o:
 
 15. **`taskkill /F /IM nome_do_programa.exe` - Fechar Programa por Nome:**
-   - `taskkill /F /IM nome_do_programa.exe`: Encerra um programa ou processo pelo nome do executável.
+   - `taskkill /F /IM nome_do_programa.exe`: Encerra um programa ou processo pelo nome do executï¿½vel.
 
 16. **`taskkill /F /PID ID_do_processo` - Fechar Programa por PID:**
    - `taskkill /F /PID ID_do_processo`: Encerra um programa ou processo pelo ID do processo (PID).
