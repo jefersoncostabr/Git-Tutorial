@@ -41,10 +41,16 @@
 	ou (mais resumido abaixo)
 	git push
 
+*****SobreBranches*****
+*Lista as branches existentes -> A branche atual aparece com asterisco
+	git branch
+
 *Criar nova branch
-git checkout -b "novaBranch" -> Criar Branch
-git checkout nomeDaBranch -> Navegar entre as branches
-git push -> Se der errado tem que pegar o endereço que o terminal vai fornecer
+	git branch <nome_da_branch> -> Criar branch
+	git checkout nomeDaBranch -> Navegar entre as branches
+	git push -> Se der errado tem que pegar o endereço que o terminal vai fornecer
+	git branch -v -> lista com detalhes
+	git checkout -b nome-da-branch main -> cria dentro da main
 
 *Merge
 	*Primeiro tem que já estar na main
