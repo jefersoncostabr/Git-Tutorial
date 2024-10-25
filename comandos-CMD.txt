@@ -76,5 +76,5 @@ Abrir cmd na pasta atual-> digite "cmd" na barra de endere�o da pasta
    - `taskkill /F /PID ID_do_processo`: Encerra um programa ou processo pelo ID do processo (PID).
 
 17. Segurança/discrição
-   ipconfig/displaydns -> Para exibir o cache DNS.
+   ipconfig/displaydns -> Para exibir o cache DNS. inclusive janela anônima
    ipconfig/flushdns -> Para limpar o cache DNS.
