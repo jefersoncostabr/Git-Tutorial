@@ -1,3 +1,5 @@
+Instalando git: https://git-scm.com/downloads/win
+
 Lista dos comandos Git mais comuns:
 
 *Configuração e inicialização do repositório
