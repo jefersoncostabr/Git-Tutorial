@@ -78,3 +78,8 @@ git ignore -> Lista todos os arquivos e padrões que estão fora do versionament
 *Atalho de copia e cola
 Copiar Ctrl+ins
 Colar Shif+ins
+
+*Clonar repositório
+-> Pegue o link no botão verde escrito code
+	Depois cole no final do código como no exemplo
+-> git clone <link>
