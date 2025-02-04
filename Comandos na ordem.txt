@@ -83,3 +83,9 @@ Colar Shif+ins
 -> Pegue o link no botão verde escrito code
 	Depois cole no final do código como no exemplo
 -> git clone <link>
+
+-> Caso de usuário não configurado
+	git config --global user.name "usuário"
+	git config --global user.email "email@gmail"
+
+-> Em caso de erro de senha na hora do push: Gerar token de acesso no site do git
