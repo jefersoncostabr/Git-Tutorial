@@ -89,3 +89,4 @@ Colar Shif+ins
 	git config --global user.email "email@gmail"
 
 -> Em caso de erro de senha na hora do push: Gerar token de acesso no site do git
+perfil>settings>devloper settings>personal acess token> tokens (classic)
