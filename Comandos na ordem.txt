@@ -90,3 +90,9 @@ Colar Shif+ins
 
 -> Em caso de erro de senha na hora do push: Gerar token de acesso no site do git
 perfil>settings>devloper settings>personal acess token> tokens (classic)
+
+*alterar a base de arquivos no git quando vc muda de lugar
+	git pull origin main --rebase
+
+*iniciar diretório como seguro
+	git config --global --add safe.directory <"caminho entre aspas">
